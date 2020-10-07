@@ -6,7 +6,7 @@
 //  https://www.russellgordon.ca/incomplete-puzzles/trident.pdf
 //
 //  NOTE: Puzzle adapted from material provided by the University of Waterloo.
-
+//made some changes to my puzzell...
 import Foundation
 
 print("Trident")
