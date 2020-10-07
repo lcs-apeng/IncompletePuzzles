@@ -14,7 +14,7 @@ print("The Cell Sell")
 print("=============")
 
 // INPUT
-
+//start from beginning. 
 // Get daytime minutes
 print("Number of daytime minutes?")
 let day = Int(readLine()!)!
