@@ -33,7 +33,10 @@ let weekend = Int(readLine()!)!
 var a = 0
 
 // Add daytime cost
-a += (day - 100) * 25
+// Subtract the free minutes only if the user consumed MORE than 100 minutes
+if day > 100 {
+    a += (day - 100) * 25
+}
 
 // Add evening cost
 a += evening * 15
@@ -46,7 +49,10 @@ a += weekend * 20
 var b = 0
 
 // Add daytime cost
-b += (day - 250) * 45
+if day > 250 {
+    b += (day - 250) * 45
+}
+
 
 // Add evening cost
 b += evening * 35
