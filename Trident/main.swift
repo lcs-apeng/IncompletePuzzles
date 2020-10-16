@@ -17,7 +17,7 @@ print("=======")
 
 // Get tine length
 print("Enter tine length:")
-print("   ", terminator: "")
+print("  4 ", terminator: "")
 let tineLength = Int(readLine()!)!
 
 // Get tine spacing

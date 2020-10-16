@@ -27,3 +27,47 @@ if phrase == "TA" {
     print("talk to you later")
     exit(0)
 }
+ 
+if phrase == "CU" {
+    print("see you")
+} else if phrase == "CUZ" {
+    print("because")
+    exit(1)
+}
+if phrase == (":-)") {
+    print("i'm happy")
+} else if phrase == (":-(") {
+    print("i'm unhappy")
+    exit(2)
+}
+
+if phrase == ";-)" {
+    print("wink")
+} else if phrase == ":-P" {
+    print ("stick out my tongue")
+    exit(3)
+}
+
+if phrase == "TA" {
+    print ("totaly awesome")
+} else if phrase == "TY" {
+    print("thank you")
+    exit(4)
+}
+
+if phrase == "TW" {
+    print("totaly awesome")
+} else if phrase == "TTYL" {
+    print("talk to you later")
+    exit(5)
+}
+ 
+if phrase == "CCC" {
+    print("canadian cheese champion")
+} else if phrase == "(~.~)" {
+    print("sleepy")
+    exit(6)
+}
+
+
+
