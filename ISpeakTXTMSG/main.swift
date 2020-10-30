@@ -49,14 +49,14 @@ if phrase == ";-)" {
 }
 
 if phrase == "TA" {
-    print ("totaly awesome")
+    print ("totally awesome")
 } else if phrase == "TY" {
     print("thank you")
     exit(4)
-}
 
-if phrase == "TW" {
-    print("totaly awesome")
+
+if phrase == "TA" {
+    print("totally awesome")
 } else if phrase == "TTYL" {
     print("talk to you later")
     exit(5)
@@ -70,4 +70,5 @@ if phrase == "CCC" {
 }
 
 
+}
 
